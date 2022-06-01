@@ -14,12 +14,81 @@
 
 <body>
     <!-- Nav tabs -->
-    <nav class="navbar  navbar-dark bg-primary">
-        <div class="container-fluid text-white ">
-            <a class="navbar-brand " href="#">首页</a>
+    <nav class="navbar navbar-expand-md  navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="https://api.lorem.space/image/face?hash=jlm6a4gi" class="display-none display-md-block"
+                style="width:50px ; height:50px ;border-radius: 50%;">
         </div>
     </nav>
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-3">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label class="form-label">name</label>
+                        <input type="text" name="username" id="" class="form-control" placeholder="input your name">
+                        <small class="text-muted">no cap letter!</small>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">name</label>
+                        <input type="email" name="username" id="" class="form-control" placeholder="input your email">
+                        <small class="text-muted">no cap letter!</small>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">name</label>
+                        <input type="password" name="username" id="" class="form-control"
+                            placeholder="input your password">
+                        <small class="text-muted">no cap letter!</small>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">name</label>
+                        <input type="tel" name="username" id="" class="form-control" placeholder="input your password">
+                        <small class="text-muted">no cap letter!</small>
+                    </div>
+                    <div class="mb-3">
+                        <label class="custom-file">photo
+                            <input type="file" name="" id="" placeholder="photo" class="custom-file-input">
+                            <span class="custom-file-control"></span>
+                        </label>
+                        <small id="fileHelpId" class="form-text text-muted">file less than 500Kb</small>
+                    </div>
 
+                </form>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+    </div>
 
 
 
